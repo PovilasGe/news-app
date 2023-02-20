@@ -1,6 +1,8 @@
 import {Bars3Icon} from '@heroicons/react/24/solid'
+import Image from 'next/image'
 import Link from 'next/link'
 import NavLinks from './NavLinks'
+import SearchBox from './SearchBox'
 
 function Header() {
   return (
@@ -9,7 +11,7 @@ function Header() {
             <Bars3Icon className='h-8 w-8 cursor-pointer'/>
             <Link href='/' prefetch={false}>
                 <h1 className='font-serif text-4xl text-center'>
-                    The <span className='underline decoration-6 decoration-orange-400'>PG</span> news
+                    The <span className='underline decoration-6 decoration-orange-400'>PiGeon</span> news
                 </h1>
             </Link>
 
@@ -21,6 +23,7 @@ function Header() {
         <NavLinks />
 
         {/* search box */}
+        <SearchBox />
     </header>
   )
 }
