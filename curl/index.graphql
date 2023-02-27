@@ -5,7 +5,7 @@ type Article {
   description: String
   image: String
   language: String
-  published_at: Article
+  published_at: String
   source: String
   title: String
   url: String
