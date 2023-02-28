@@ -33,6 +33,7 @@ function page({ searchParams }: Props) {
                         <h2 className="font-bold pl-4">Source: {article.source}</h2>
                     </div>
                     <p className="pt-4">{article.description}</p>
+
                 </div>
             </section>
         </article>
